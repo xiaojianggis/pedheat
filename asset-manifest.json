@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.888242c7.css",
+    "main.js": "/static/js/main.a3199275.js",
+    "static/js/453.868816cd.chunk.js": "/static/js/453.868816cd.chunk.js",
+    "static/media/Heatt730-crop.gif": "/static/media/Heatt730-crop.a575375de8df1bf436a8.gif",
+    "static/media/social_mrt.geojson": "/static/media/social_mrt.5106a540c524507e1473.geojson",
+    "static/media/solweig.png": "/static/media/solweig.536538d3996c531eaf0d.png",
+    "static/media/nsf.png": "/static/media/nsf.cba7a156342d09a19499.png",
+    "static/media/nasa.png": "/static/media/nasa.67304e9db8a01d0872eb.png",
+    "static/media/biometeorsai2.png": "/static/media/biometeorsai2.17035bcd4507ec5373af.png",
+    "static/media/biometeors.png": "/static/media/biometeors.780b8cd30f39408e7642.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.888242c7.css.map": "/static/css/main.888242c7.css.map",
+    "main.a3199275.js.map": "/static/js/main.a3199275.js.map",
+    "453.868816cd.chunk.js.map": "/static/js/453.868816cd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.888242c7.css",
+    "static/js/main.a3199275.js"
+  ]
+}
