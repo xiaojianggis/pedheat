@@ -1,0 +1,89 @@
+
+.map-container {
+    width: 100%;
+    position: relative;
+    padding-top: 20px;
+    display: inline-flex;
+    position: relative;
+    height: 700px;
+    outline: 3px;
+}
+
+
+.legend {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 3px;
+    /* bottom: 30px; */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.10);
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.legend h3 {
+    margin: 0 0 10px;
+}
+
+.legend ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.legend li {
+    display: flex;
+    align-items: center;
+}
+
+
+.legend-before {
+    top: 10px;
+    left: 10px;
+}
+
+.legend-after {
+    top: 10px;
+    right: 10px;
+}
+
+/* Legend.css */
+.legend-container {
+    display: flex;
+}
+
+.legend-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    /* Remove margin between items */
+}
+
+.legend-item span {
+    display: inline-block;
+    width: 60px;
+    /* Width of the brick */
+    height: 15px;
+    /* Height of the brick */
+    margin-bottom: 5px;
+    /* Space between brick and text */
+    border-radius: 3px;
+    /* Optional: Rounded corners */
+}
+
+.legend-item:not(:last-child) span {
+    border-right: 1px solid white;
+    /* Add a border between connected bricks */
+}
+
+.legend-item p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    /* font-size: x-large; */
+    font-family: 'Times New Roman', Times, serif
+    /* Adjust the text size */
+}

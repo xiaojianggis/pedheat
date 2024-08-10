@@ -1,0 +1,25 @@
+.legend-card {
+    position: relative;
+    /* padding-top: 20px; */
+    display: flex;
+    flex-direction: row;
+    /* padding: 5px; */
+    /* padding-left: 40px; 
+    padding-right: 40px; */
+}
+
+#legend-item {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    /* height: 20px; */
+}
+
+#legend-brick {
+    display: inline-block;
+    flex-direction: row;
+    /* padding: 10px; */
+    height: 15px;
+    margin-left: 2px;
+    padding-top: 0px;
+}

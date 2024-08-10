@@ -1,0 +1,54 @@
+.map-panel-container {
+  /* margin-top: 5pc; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgb(239, 239, 239);
+  /* z-index: 999; */
+}
+
+#heatmap-scales {
+  background-color: rgb(239, 239, 239);
+  padding: 20px;
+}
+
+.heatmap-scales-text {
+  padding: 3% 5% 0% 5%;
+  font-weight: 500;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.heatmap-scales-text #heatmap-scales-description {
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+
+.heatmap-scales-text h1 {
+  padding: 3% 5% 3% 5%;
+  font-weight: 2500;
+}
+
+
+.map-panel-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.map-title-text {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.map-panel-card-container {
+  justify-content: center;
+  width: 85%;
+  height: 800px;
+}

@@ -1,0 +1,30 @@
+.literature-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 235, 231);
+  width: 100%;
+}
+
+#liter-column-1 {
+  justify-self: center;
+  font-size:xx-large;
+  font-weight: bold;
+  width: 40%;
+  padding: 60px 20px 40px 120px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+#liter-column-2 {
+  /* display: flex; */
+  width: 60%;  
+  font-weight: 520;
+  font-size: x-large;
+  font-weight: normal;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 60px 140px 60px 10px;
+  justify-content: justify; 
+  text-align: justify;
+}
+

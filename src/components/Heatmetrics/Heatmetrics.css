@@ -1,0 +1,28 @@
+.heatmetrics-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 219, 190);
+    width: 100%;
+  }
+  
+
+  .heatmetrics-row {
+    /* display: flex;
+    flex-direction: column; */
+    width: 100%;
+    justify-content: justify; 
+    text-align: justify;
+    padding: 3% 10% 3% 10%;
+    /* padding: 60px 140px 20px 10px; */
+    font-weight: 500;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .heatmetrics-row h1 {
+    justify-content: center; 
+    text-align: center;
+    font-weight: 2500;
+  }
+  

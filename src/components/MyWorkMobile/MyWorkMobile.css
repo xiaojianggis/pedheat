@@ -1,0 +1,82 @@
+.my-work-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.project-card-mobile {
+  grid-column: viewport;
+  display: inherit;
+  height: auto;
+  width: 100%;
+  background-color: var(--black);
+  margin: 15px 0px 15px 0px;
+}
+
+.card-container-mobile {
+  padding: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-image-mobile {
+  display: flex;
+  width: 98%;
+  align-self: flex-start;
+  margin: 0 0 12px 0;
+  border-radius: 5px;
+}
+
+.card-heading-mobile {
+  text-align: left;
+  margin: 0 0 12px 0;
+  font-family: var(--heading);
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.card-body-mobile {
+  margin: 0 0 12px 0;
+  font-family: var(--copy);
+  text-align: left;
+  width: 98%;
+  font-size: 17px;
+  color: var(--white);
+}
+
+.project-tools-mobile {
+  font-family: var(--copy);
+  text-align: left;
+  font-size: large;
+  font-style: italic;
+  color: var(--white);
+  margin: 0 0 12px 0;
+}
+
+.button-container-mobile {
+  display: flex;
+  width: 90%;
+  flex-wrap: wrap;
+}
+
+.card-button-mobile {
+  display: flex;
+  border-radius: 5px;
+  border: 2px solid var(--teal);
+  font-family: var(--copy);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 10px;
+  width: 100px;
+  height: 30px;
+  background-color: var(--opaque);
+  color: var(--teal);
+  font-size: 14px;
+  transition: 0.6s;
+}
+
+.card-button-mobile:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

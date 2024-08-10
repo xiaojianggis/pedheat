@@ -1,0 +1,142 @@
+#map-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  padding-left: 10%;
+}
+
+#map-container {
+  display:inline-flex ;
+  position: relative;
+  height: 750px;
+  outline: 3px;
+  /* padding-right: 700px; */
+  width: 60%;
+  padding-left: 2%;
+  padding-right: 2%;
+
+  /* padding: 0% 10% 0% 10%; */
+}
+
+.sidebar1 {
+  background-color: rgba(255, 255, 255);
+  position: absolute;
+  left: 30px;
+  top: 5%;
+  width: 220px;
+  height: 8%;
+  font-size: medium;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  text-align: justify;
+  z-index: 999;
+
+}
+
+
+.sidebar2 {
+  background-color: rgba(255, 255, 255);
+  position: absolute;
+  right: 3%;
+  top: 2%;
+  width: 280px;
+  height: 7%;
+  font-size: medium;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: justify;
+  padding: 10px;
+  z-index: 999;
+}
+
+.sidebar2 p {
+  /* padding-bottom: 2px;
+  padding-top: 2px; */
+  margin: 2px;
+}
+
+.sidebar3 {
+  background-color: white;
+  position: absolute;
+  left: 70%;
+  top: 5%;
+  width: 30%;
+  height: 10%;
+  font-size: medium;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: justify;
+  z-index: 999;
+
+}
+
+#feature-attribute-name {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  align-content: center;
+  font-size: larger;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+}
+
+
+#legend-panel {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 750px;
+  width: 25%;
+  /* padding-left: 5%; */
+  /* padding-right: 2%; */
+  background-color: white;
+}
+
+#legend-title{
+  font-size: x-large;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.legend-items {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+#option-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.legend-description-panel {
+  text-align: justify;
+  padding: 20px;
+}
+
+
+.legend-description-panel p {
+  font-weight: 500;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+

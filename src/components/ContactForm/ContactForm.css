@@ -1,0 +1,106 @@
+.contact-form-container {
+  width: 100%;
+  margin: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+.form-group a {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+  text-decoration-line: underline;
+}
+
+.input-label {
+  font-family: var(--copy);
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--white);
+  margin-bottom: 0.5rem;
+  align-self: flex-start;
+  font-weight:500;
+  /* text-transform: uppercase; */
+}
+
+.input-field {
+  margin-bottom: 1rem;
+  font-family: var(--copy);
+  font-size: large;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+input {
+  border-radius: 5px;
+  border: 2px solid var(--black);
+}
+
+textarea {
+  border-radius: 5px;
+  border: 2px solid var(--black);
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid var(--teal);
+}
+
+textarea:focus {
+  outline: none;
+  border: 2px solid var(--teal);
+}
+
+.if-text {
+  height: 5rem;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.contact-button {
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--teal);
+  font-family: var(--copy);
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 125px;
+  height: 30px;
+  background-color: var(--opaque);
+  color: var(--teal);
+  transition: 0.6s;
+  margin-top: 0px;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+
+.contact-button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 786px) {
+  .input-label,
+  .input-form {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .card-button-mobile {
+    height: 30px;
+    font-size: 14px;
+  }
+}

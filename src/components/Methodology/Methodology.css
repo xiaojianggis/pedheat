@@ -1,0 +1,43 @@
+.methodology-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: bisque;
+  width: 100%;
+}
+
+.method-column-1 {
+  justify-self: center;
+  font-size:xx-large;
+  font-weight: 200;
+  
+  width: 40%;
+  padding: 60px 0px 20px 100px;
+}
+
+.method-column-2 {
+  width: 60%;
+  justify-content: justify; 
+  text-align: justify;
+  padding: 60px 140px 20px 10px;
+  font-weight: 500;
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column; /* make main-axis vertical */
+  justify-content: center; /* align items vertically, in this case */
+  align-items: center; /* align items horizontally, in this case */
+  text-align: justify;
+}
+
+.method-diagram {
+  padding-left: 30px;
+  padding-top: 20px;
+  display: flex;
+  width: 80%;
+  object-fit: contain;
+}
+
