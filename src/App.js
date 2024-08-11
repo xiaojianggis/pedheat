@@ -26,7 +26,7 @@ function App() {
   
   useEffect(() => {
     window.addEventListener("resize", updateWidth);
-
+    document.title = "pedheat"; // Change the tab name
   //   if (map.current) return; // initialize map only once
   //   map.current = new mapboxgl.Map({
   //     // container: mapContainer.current,
