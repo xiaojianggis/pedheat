@@ -15,14 +15,13 @@ export const MapPanel = () => {
 				</p>
 			</div>
 
+			
 			<div className='map-panel-container'>
 				<main className='map-panel-card'>
 					<MapContainer />
 				</main>
 			</div >
 		</div>
-
-
 	);
 }
 

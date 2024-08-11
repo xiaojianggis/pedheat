@@ -28,13 +28,17 @@ export const ContactForm = () => {
 				<input className="input-field" type="text" name="user_name" placeholder="Enter your name" required /> */}
 			</div>
 			<div className='form-group'>
-				<label className="input-label"><strong>PI</strong>: 
-				<a href="https://www.design.upenn.edu/people/xiaojiang-li">
-					 Xiaojiang Li, 
-				</a>
-				Assistant Professor at University of Pennsylvania
+				<label className="input-label"><strong>PI</strong>:
+					<a href="https://www.design.upenn.edu/people/xiaojiang-li">
+						Xiaojiang Li,
+					</a>
+					Assistant Professor at University of Pennsylvania
 				</label>
-				<label className="input-label"><strong>Website</strong>: Urban Spatial Informatics Lab, UPenn</label>
+				<label className="input-label"><strong>Website</strong>:
+					<a href="https://www.urbanspatial.info/">
+						Urban Spatial Informatics Lab @UPenn
+					</a>
+				</label>
 				<label className="input-label" htmlFor='email'><strong>Email</strong>: jianglix@design.upenn.edu</label>
 				{/* <input className="input-field" type="email" name="user_email" placeholder="Enter your email" required /> */}
 			</div>

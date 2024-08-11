@@ -29,6 +29,24 @@
   /* text-transform: uppercase; */
 }
 
+.input-label a {
+  color: blue;
+}
+
+.form-group a:hover {
+  color: green; /* Color when hovering over the link */
+}
+
+.form-group a:active {
+  color: red; /* Color when the link is clicked */
+}
+
+.input-label a:visited {
+  color: rgb(42, 14, 202); /* Color for visited links */
+}
+
+
+
 .input-field {
   margin-bottom: 1rem;
   font-family: var(--copy);

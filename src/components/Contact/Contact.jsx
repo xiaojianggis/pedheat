@@ -25,9 +25,20 @@ export const Contact = (props) => {
 			</main>
 
 			<div className='founder-container'>
-				<img className="founder-fig" src={require('../../assets/nsf.png')} alt="solweig" />
-				<img className="founder-fig" src={require('../../assets/nasa.png')} alt="solweig" />
-				<img className="founder-fig" src={require('../../assets/biometeorsai2.png')} alt="solweig" />
+				<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2314709&HistoricalAwards=false" target="_blank" rel="noopener noreferrer">
+					<img className="founder-fig" src={require('../../assets/nsf.png')} alt="solweig" />
+				</a>
+
+				<a href="https://science.jpl.nasa.gov/projects/ids/" target="_blank" rel="noopener noreferrer">
+					<img className="founder-fig" src={require('../../assets/nasa.png')} alt="solweig" />
+				</a>
+				<a href="https://www.design.upenn.edu/" target="_blank" rel="noopener noreferrer">
+					<img className="founder-fig" src={require('../../assets/penn-logo.png')} alt="solweig" />
+				</a>
+				<a href="https://www.biometeors.com/" target="_blank" rel="noopener noreferrer">
+					<img className="founder-fig" src={require('../../assets/biometeors3.png')} alt="solweig" />
+				</a>
+
 			</div>
 		</footer>
 

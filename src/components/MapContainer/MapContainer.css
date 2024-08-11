@@ -1,10 +1,9 @@
 #map-section {
   display: flex;
   flex-direction: row;
+  width: 90%; /*heatmap-scales-text *2 + 90 = 100*/
+  justify-content: center;
   align-items: center;
-  align-content: center;
-  width: 100%;
-  padding-left: 10%;
 }
 
 #map-container {
@@ -12,18 +11,15 @@
   position: relative;
   height: 750px;
   outline: 3px;
-  /* padding-right: 700px; */
-  width: 60%;
-  padding-left: 2%;
-  padding-right: 2%;
-
-  /* padding: 0% 10% 0% 10%; */
+  width: 70%;
+  position: relative;
+  display: inline-flex;
 }
 
 .sidebar1 {
   background-color: rgba(255, 255, 255);
   position: absolute;
-  left: 30px;
+  /* left: 30px; */
   top: 5%;
   width: 220px;
   height: 8%;
@@ -35,9 +31,7 @@
   align-content: center;
   text-align: justify;
   z-index: 999;
-
 }
-
 
 .sidebar2 {
   background-color: rgba(255, 255, 255);
@@ -78,7 +72,6 @@
   align-content: center;
   text-align: justify;
   z-index: 999;
-
 }
 
 #feature-attribute-name {
@@ -93,13 +86,12 @@
   font-weight: 500;
 }
 
-
 #legend-panel {
   display: flex;
   position: relative;
   flex-direction: column;
   height: 750px;
-  width: 25%;
+  width: 30%;
   /* padding-left: 5%; */
   /* padding-right: 2%; */
   background-color: white;
@@ -121,18 +113,15 @@
   padding-right: 20px;
 }
 
-
 #option-container {
   display: flex;
   flex-direction: row;
 }
 
-
 .legend-description-panel {
   text-align: justify;
   padding: 20px;
 }
-
 
 .legend-description-panel p {
   font-weight: 500;

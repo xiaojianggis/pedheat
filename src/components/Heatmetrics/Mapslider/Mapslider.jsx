@@ -124,7 +124,7 @@ const Mapslider = () => {
 
             <div id="after" ref={afterMapContainerRef} style={{ height: '100%', width: '100%', position: 'absolute' }}>
                 <div className="legend legend-after">
-                    <h2>Universal Thermal Climate Index (°C)</h2>
+                    <h2>Mean Radiant Temperature (°C)</h2>
                     <ul className='legend-container'>
                         {LegendItems.map((item, index) => (
                             <li key={index} className="legend-item">

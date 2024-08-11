@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import React, { useRef, useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Switch } from 'react-router-dom';
+
 import { Main } from "./components/Main/Main";
 import mapboxgl from 'mapbox-gl';
 // import { CaseStudy } from "./components/CaseStudy/CaseStudyPage";
@@ -38,7 +40,7 @@ function App() {
     // setLat(map.current.getCenter().lat.toFixed(4));
     // setZoom(map.current.getZoom().toFixed(2));
     // });
-    
+
 
     return () => window.removeEventListener("resize", updateWidth);
   });

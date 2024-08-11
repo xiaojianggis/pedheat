@@ -114,6 +114,12 @@
   padding-bottom: 5%;
   margin: 20px;
 }
+
+.founder-container img {
+  height: 140px;
+}
+
+
 .founder-fig {
   height: 100px;
   padding: 10px;

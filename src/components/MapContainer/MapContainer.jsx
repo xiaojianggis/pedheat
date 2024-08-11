@@ -335,8 +335,7 @@ export const MapContainer = () => {
     }
     );
   };
-
-
+  
   return (
     <div id='map-section'>
       <div id='legend-panel'>
@@ -349,11 +348,9 @@ export const MapContainer = () => {
           />
         </div> */}
 
-
         {/* <div id='legend-items'>
           <Legend active={active} stops={active.stops} />
         </div> */}
-
 
         <div className='legend-description-panel'>
           <h3>Mean radiant temperature</h3>
@@ -364,7 +361,6 @@ export const MapContainer = () => {
           <hr />
           {clickedFeature && (
             <div id='feature-attribute-name'>
-
               <ul>
                 <li>
                   Mean radiant temperature: {clickedFeature.mrt.toFixed(2)} &deg;C
@@ -391,8 +387,8 @@ export const MapContainer = () => {
           }
         </div>
       </div>
-
-      <div ref={mapContainerRef} id='map-container'>
+        
+      <div ref={ mapContainerRef } id='map-container'>
         {/* <div className="sidebar1">
           <div id='legend-title'>
             <Optionsfield
@@ -413,14 +409,12 @@ export const MapContainer = () => {
           </div>)
         } */}
 
-
         <div className="sidebar2">
           <p>
             Mean Radiant Temperature
           </p>
           {/* <Legend active={active} stops={active.stops} /> */}
           <Legend active={active} stops={legend} />
-
         </div>
       </div>
     </div>
